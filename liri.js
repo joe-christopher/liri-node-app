@@ -15,7 +15,7 @@ else if (cmdName == "spotify-this-song")
 }
 else if (cmdName == "movie-this")
 {
-    console.log ("call - " + cmdName);
+    callMovie();
 }
 else if (cmdName == "do-what-it-says")
 {
@@ -87,5 +87,41 @@ function callSpotify()
             
     });
     
+
+}
+
+function callMovie()
+{
+    var request = require("request");
+
+    var titleName = "";
+    
+    if (process.argv[3] != null) 
+    {
+        titleName = process.argv[3];
+        request("http://www.omdbapi.com/?t=" + titleName + "&y=&plot=short&apikey=trilogy", function(error, response, body) {
+
+        // If the request is successful (i.e. if the response status code is 200)
+        if (!error && response.statusCode === 200) 
+        {
+            console.log("The movie's title is: " + JSON.parse(body).Title);
+            console.log("The year the movie was realeased is: " + JSON.parse(body).Year);
+            console.log("The movie's IMDB rating is: " + JSON.parse(body).imdbRating);
+            console.log("The movie was produced in: " + JSON.parse(body).County);
+            console.log("The movie's language is:  " + JSON.parse(body).Language);
+            console.log("The movie's plot is:  " + JSON.parse(body).Plot);
+            console.log("The movie's actors are:  " + JSON.parse(body).Actors);
+           
+        }
+        else
+            console.log(error);
+        });
+    }
+    else
+    {
+        console.log("If you haven't watched 'Mr. Nobody' then you should: <http://www.imdb.com/title/tt0485947/>");
+        console.log("It's on Netflix!");
+    }
+
 
 }
