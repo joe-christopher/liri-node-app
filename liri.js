@@ -2,11 +2,18 @@
 require("dotenv").config();
 var keys = require("./keys.js");
 var fs = require("fs");
+var logfile = "./log.txt"
 var cmdName = process.argv[2];
 var titleName = process.argv[3];; //song or movie title
 
-console.log(JSON.stringify(process.argv));
-console.log(titleName);
+var cmdLine = (JSON.stringify(process.argv));
+fs.appendFile(logfile, cmdLine, function(err) {
+    if (err) {
+        console.log(err);
+      }
+      addNewLineToFile();
+})
+
 
 //check cmdName name and call approprate function
 if (cmdName == "my-tweets")
@@ -86,9 +93,17 @@ function callSpotify()
                 'Name': song.name,
                 'Preview Link': song.preview_url,
                 'Album': song.album.name
-            }
-            console.log(JSON.stringify(songObj, null, 2));
-        }
+                }
+                var results = JSON.stringify(songObj, null, 2);
+                console.log(results);
+                fs.appendFile(logfile, results, function(err) {
+                    if (err) {
+                        console.log(err);
+                      }
+                      addNewLineToFile();
+                      addNewLineToFile();
+                })
+             }
             
             
     });
@@ -114,14 +129,23 @@ function callMovie()
                 console.log("If you haven't watched 'Mr. Nobody' then you should: <http://www.imdb.com/title/tt0485947/>");
                 console.log("It's on Netflix!");
             }
-            console.log("The movie's title is: " + JSON.parse(body).Title);
-            console.log("The year the movie was realeased is: " + JSON.parse(body).Year);
-            console.log("The movie's IMDB rating is: " + JSON.parse(body).imdbRating);
-            console.log("The movie's Rotten Tomatoes rating is: " + JSON.parse(body).Ratings[1].Value);
-            console.log("The movie was produced in: " + JSON.parse(body).Country);
-            console.log("The movie's language is:  " + JSON.parse(body).Language);
-            console.log("The movie's plot is:  " + JSON.parse(body).Plot);
-            console.log("The movie's actors are:  " + JSON.parse(body).Actors);
+          
+                if (typeof JSON.parse(body).Title != 'undefined') 
+                    console.log("The movie's title is: " + JSON.parse(body).Title);
+                if (typeof JSON.parse(body).Year != 'undefined') 
+                    console.log("The year the movie was realeased is: " + JSON.parse(body).Year);
+                if (typeof JSON.parse(body).imdbRating != 'undefined') 
+                    console.log("The movie's IMDB rating is: " + JSON.parse(body).imdbRating)
+                if (typeof body.Ratings != 'undefined') 
+                    console.log("The movie's Rotten Tomatoes rating is: " + JSON.parse(body).Ratings[1].Value);
+                if (typeof JSON.parse(body).Country != 'undefined') 
+                    console.log("The movie was produced in: " + JSON.parse(body).Country);
+                if (typeof JSON.parse(body).Language != 'undefined') 
+                    console.log("The movie's language is:  " + JSON.parse(body).Language);
+                if (typeof JSON.parse(body).Plot != 'undefined') 
+                    console.log("The movie's plot is:  " + JSON.parse(body).Plot);
+                if (typeof JSON.parse(body).Actors != 'undefined') 
+                    console.log("The movie's actors are:  " + JSON.parse(body).Actors);
         }
         else
             console.log(error);
@@ -160,4 +184,13 @@ function callDoIt()
         
     })
 
+}
+
+function addNewLineToFile()
+{
+    fs.appendFile(logfile, "\n", function(err) {
+        if (err) {
+            console.log(err);
+          }
+    })
 }

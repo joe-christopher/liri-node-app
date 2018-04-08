@@ -1,0 +1,52 @@
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","spotify-this-song","attitude"]
+{
+  "Artist(s)": "Troop",
+  "Name": "All I Do Is Think Of You",
+  "Preview Link": "https://p.scdn.co/mp3-preview/6ad5fa489ff082f99061567fcdc3844607cb2f7f?cid=aeaf3268682b4dbc83d804767efc59e3",
+  "Album": "Attitude"
+}
+
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","spotify-this-song","we bite"]
+{
+  "Artist(s)": "Misfits",
+  "Name": "We Bite",
+  "Preview Link": null,
+  "Album": "Collection 2"
+}
+
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","spotify-this-song","easy lover"]
+{
+  "Artist(s)": "Philip Bailey",
+  "Name": "Easy Lover",
+  "Preview Link": "https://p.scdn.co/mp3-preview/11b888ac654b453a690402c89a19dde60545e4f2?cid=aeaf3268682b4dbc83d804767efc59e3",
+  "Album": "Chinese Wall (Expanded Edition)"
+}
+
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this","star wars"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this","terminator"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this","terminator"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this","terminator"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this","terminator"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this","terminator"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this","terminator"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this","terminator"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this","terminator"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this","terminator"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this","terminator"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this","terminator"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this","terminator"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this","terminator"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this","terminator"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this","terminator"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this","terminator"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this","terminator"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this","terminator"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this","terminator"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this"]
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","movie-this","the terminator"]
