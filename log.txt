@@ -130,3 +130,11 @@ The movie's actors are:  Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
   "Album": "The Hits--Chapter One"
 }
 
+["/usr/local/Cellar/node/9.5.0/bin/node","/Users/joechristopher/Documents/liri-node-app/liri.js","spotify-this-song"]
+{
+  "Artist(s)": "Ace of Base",
+  "Name": "The Sign",
+  "Preview Link": "https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=aeaf3268682b4dbc83d804767efc59e3",
+  "Album": "The Sign (US Album) [Remastered]"
+}
+
